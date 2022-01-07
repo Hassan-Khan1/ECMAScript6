@@ -1,0 +1,45 @@
+
+We can Override Var and its Function Scopee
+We can override Let and its Block Scope 
+We can not override and its Const Block Scope
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+</head>
+
+<body>
+   
+  
+  <script>
+    var name  = "Hassan";
+    name = "Khan"
+    console.log('Name :' ,name);
+    
+    
+    
+    const name_cost = 'Hassan Const';
+    
+    console.log('Const : ',name_cost);
+
+    function modJS(Nice){
+      if(Nice){
+        let aname = "Hassan";
+        const sname =  "Khan";
+        console.log("My Name is " + aname + " "+ sname);
+
+      }
+    }
+    modJS(true);
+
+    
+  </script>
+
+</body>
+</html>
+

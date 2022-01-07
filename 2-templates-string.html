@@ -1,0 +1,60 @@
+
+Templates String / Templates Iiterals
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+</head>
+
+<body>
+
+<script>
+  // Old Methode//
+  console.log("My name is Hassan " + "Age is 26")
+
+  // ES6
+  console.log(`My name is Hassan .age 26`)
+
+
+  // Old Methode
+
+  let firstname = "Hassan"
+  let lastname = "Khan"
+  console.log('My Name is '+ firstname +". My Last is " + lastname)
+
+  // ES6 Method
+  console.log(`My Name is ${firstname}. My last name is  ${lastname}`)
+
+
+
+  // Old Methode
+
+  let  a = 20;
+  let b = 30;
+  console.log("Fifty is " + (a+b) + ' and\nnot ' + (2 * a+b) + '')
+
+  // ES6
+  console.log(`Fifty is ${a+b} and not ${2* a+b}`)
+
+
+  // ES6 New Methods
+
+  const Fname = `${firstname}`;
+  console.log(Fname.startsWith('H'));
+  console.log(Fname.endsWith("n"));
+  console.log(Fname.includes('an'));
+  console.log(`${firstname }${lastname}`.repeat(10))
+
+
+
+</script>
+
+
+</body>
+</html>
+
